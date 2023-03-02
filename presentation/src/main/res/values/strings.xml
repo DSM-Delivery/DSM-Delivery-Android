@@ -13,6 +13,15 @@
     <string name="giving_stars">별점 주기</string>
     <string name="dsm_delivery_setting">DSM Delivery 환경설정</string>
     
+    <string name="rider_application_withdrawal">라이더 신청하기 | 탈퇴하기</string>
+    <string name="riding_request">라이딩 요청</string>
+    <string name="delivery_history">배달 내역</string>
+
+    <string name="category">종류</string>
+    <string name="category_delivery_snack">택배, 간식</string>
+    <string name="category_rider">라이더</string>
+    <string name="category_check">확인</string>
+    
     <string name="text_id">아이디</string>
     <string name="text_password">비밀번호</string>
     <string name="text_check_password">비밀번호 확인</string>
