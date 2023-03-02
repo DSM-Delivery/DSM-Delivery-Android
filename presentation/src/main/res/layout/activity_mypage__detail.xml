@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btn_go_back"
+            style="@style/go_back_button"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="68dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="360dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_go_back">
+
+            <TextView
+                android:id="@id/tv_rider_application_withdrawal"
+                style="@style/tv_mypage_settings"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/rider_application_withdrawal" />
+
+            <TextView
+                android:id="@+id/tv_mypage_setting_frame"
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/img_mypage_settings_frame" />
+
+            <TextView
+                android:id="@+id/tv_riding_request"
+                style="@style/tv_mypage_settings"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:text="@string/riding_request" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="95dp"
+                android:background="@drawable/img_mypage_settings_frame" />
+
+            <TextView
+                android:id="@+id/tv_delivery_history"
+                style="@style/tv_mypage_settings"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="105dp"
+                android:text="@string/delivery_history" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="360dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/riding"
+                android:textColor="@color/black"
+                android:fontFamily="@font/main_font"
+                android:textFontWeight="400"
+                android:textSize="14sp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_mypage_detail_riding"
+                android:layout_width="310dp"
+                android:layout_height="190dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"/>
+
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
