@@ -75,7 +75,7 @@
                 android:layout_margin="20dp"
                 android:text="@string/riding"
                 android:textColor="@color/black"
-                android:textFontWeight="500"
+                android:fontFamily="@font/main_font"
                 android:textSize="14sp" />
 
 

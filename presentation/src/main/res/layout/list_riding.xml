@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="310dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="20dp">
+
+    <ImageView
+        android:id="@+id/iv_mypage_riding_user_profile"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/img_mypage_riding_user_profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_mypage_riding_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="양운석"
+        android:textFontWeight="500"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mypage_riding_user_profile"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="맛동산 밀키트 부탁드립니다."
+        android:textFontWeight="400"
+        android:textSize="8sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_mypage_riding_user_profile"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mypage_riding_user" />
+
+    <TextView
+        android:id="@+id/tv_mypage_riding_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="간식"
+        android:textSize="8sp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="500원"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mypage_riding_category" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
