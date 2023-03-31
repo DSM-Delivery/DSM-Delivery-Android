@@ -1,2 +1,2 @@
-# DSM-Delivery-Android2
+# DSM-Delivery-Android
 This is DSM Delivery Android Repository
