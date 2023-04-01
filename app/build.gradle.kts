@@ -9,6 +9,12 @@ android {
     namespace  = "deilvery.android"
     compileSdk = ProjectProperties.COMPILE_SDK_VERSION
 
+    android {
+        lint {
+            baseline = file("lint-baseline.xml")
+        }
+    }
+
     defaultConfig {
         applicationId = ProjectProperties.APPLICATION_ID
         minSdk = ProjectProperties.MIN_SDK_VERSION
