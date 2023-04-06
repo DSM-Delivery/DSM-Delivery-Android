@@ -17,7 +17,6 @@
         <activity
             android:name="com.deilvery_android.MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.Deilvery_Android">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
