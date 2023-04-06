@@ -1,0 +1,4 @@
+package com.deilvery_android.feature.base
+
+class EventFlow {
+}
