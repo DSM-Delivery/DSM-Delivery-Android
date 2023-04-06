@@ -49,6 +49,7 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = Versions.COMPOSE
         kotlinCompilerVersion = ProjectProperties.KOTLIN_VERSION
+
     }
 
     packagingOptions {
