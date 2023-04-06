@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace  = "deilvery.android"
+    namespace  = "com.dsm_delivery.app"
     compileSdk = ProjectProperties.COMPILE_SDK_VERSION
 
     android {
