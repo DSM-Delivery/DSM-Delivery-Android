@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace  = "com.dsm_delivery.app"
+    namespace  = "com.dsm_delivery"
     compileSdk = ProjectProperties.COMPILE_SDK_VERSION
 
     android {
@@ -61,6 +61,9 @@ android {
 }
 
 dependencies {
+
+    implementation(project(":domain"))
+    implementation(project(":di"))
 
     implementation(Dependency.Ui.CORE_KTX)
     implementation(Dependency.Ui.APP_COMPAT)

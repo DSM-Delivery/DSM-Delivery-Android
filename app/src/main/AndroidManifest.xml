@@ -6,7 +6,7 @@
 
     <application
         android:allowBackup="true"
-        android:name="com.deilvery_android.DeliveryApplication"
+        android:name="com.dsm_delivery.DeliveryApplication"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -15,7 +15,7 @@
         android:theme="@style/Theme.Deilvery_Android"
         tools:targetApi="31">
         <activity
-            android:name="com.deilvery_android.MainActivity"
+            android:name="com.dsm_delivery.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Deilvery_Android">
             <intent-filter>
